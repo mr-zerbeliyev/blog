@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "İlkin Zərbəliyev - Front-end Geliştirici",
-  description: "React ve Next.js ile modern web uygulamaları geliştiren front-end geliştirici",
+  title: "Mr. Zerbeliyev | Front-end Developer",
+  description: "Front-end Developer specializing in React, Next.js, and TypeScript",
 };
 
 export default function RootLayout({
@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="az">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   );
 }
