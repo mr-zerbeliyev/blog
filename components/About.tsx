@@ -38,7 +38,7 @@ const About = () => {
   ];
 
   return (
-    <Box id="about" sx={{ py: 12, bgcolor: '#F5F5F5', boxShadow: 'inset 0 4px 30px rgba(0, 0, 0, 0.1)' }}>
+    <Box id="about" sx={{ py: 12, bgcolor: 'black', boxShadow: 'inset 0 4px 30px rgba(0, 0, 0, 0.1)' }}>
       <Container>
         <Typography
           variant="h2"
@@ -48,7 +48,7 @@ const About = () => {
             mb: 2,
             fontWeight: 'bold',
             fontSize: { xs: '2rem', md: '3rem' },
-            color: '#212121'
+            color: '#ffffff'
           }}
         >
           Haqqımda
@@ -56,7 +56,7 @@ const About = () => {
         <Typography
           variant="h5"
           align="center"
-          color="#212121"
+          color="#ffffff"
           sx={{ mb: 8, maxWidth: 800, mx: 'auto', opacity: 0.8 }}
         >
           Front-end developer olaraq müasir veb texnologiyaları ilə işləyir və istifadəçi təcrübəsini ön planda tuturam.
